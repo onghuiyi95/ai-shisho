@@ -1,0 +1,33 @@
+# ===== 密钥 / 凭据 (绝不提交) =====
+.env
+*.env
+.env.local
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ===== 数据与向量库 (体积大, 可重新生成) =====
+chroma/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== 调试 / 日志 / 临时 =====
+*.log
+*.pid
+*.out
+nul
+*.bat
+_apk_extract/
+_*.py
+_*.txt
+__pycache__/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
